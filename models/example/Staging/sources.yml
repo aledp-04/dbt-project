@@ -1,0 +1,12 @@
+sources:
+    - name: deliveroo
+      description: This is a replica of the Riders database used by our app
+      database: eco-rune-459817-m9
+      schema: raw_rides
+      tables:
+          - name: corse
+          - name: corse_richieste
+          - name: corse_accettate
+          - name: corse_iniziate
+          - name: corse_completate
+          - name: corse_cancellate

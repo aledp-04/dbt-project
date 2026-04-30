@@ -1,0 +1,11 @@
+
+version: 2
+deliveroo:
+    - name: stg_rawrides__corse
+      description: tabella corse principale
+      columns:
+          - name: id
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null
