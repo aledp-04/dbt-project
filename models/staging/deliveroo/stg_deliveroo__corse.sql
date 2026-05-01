@@ -16,8 +16,8 @@ renamed as (
 
     from source
 
-    where id is not null
-
 )
 
 select * from renamed
+
+{{ config(materialized='view') }}

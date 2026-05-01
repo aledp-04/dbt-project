@@ -2,7 +2,7 @@ with
 
 source as (
 
-    select * from {{ source('deliveroo', 'corse_accettate') }}
+    select * from {{ source('deliveroo', 'corse_iniziate') }}
 
 ),
 
@@ -14,8 +14,6 @@ renamed as (
         creato_il
 
     from source
-
-    where id is not null
 
 )
 

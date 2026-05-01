@@ -10,3 +10,6 @@ sources:
           - name: corse_iniziate
           - name: corse_completate
           - name: corse_cancellate
+          - name: riders
+          - name: clienti
+          - name: locali

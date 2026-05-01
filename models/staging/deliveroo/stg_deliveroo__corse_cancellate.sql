@@ -11,11 +11,10 @@ renamed as (
     select
         id,
         id_corsa,
-        creato_il
+        creato_il,
+        motivo
 
     from source
-
-    where id is not null
 
 )
 

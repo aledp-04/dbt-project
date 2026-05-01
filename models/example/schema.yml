@@ -1,6 +1,7 @@
 
 version: 2
-deliveroo:
+
+models:
     - name: stg_rawrides__corse
       description: tabella corse principale
       columns:

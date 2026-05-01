@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: stg_deliveroo__corse
+    columns:
+      - name: id
+        tests:
+        - not_null
+        - unique
+        
+        
+          
+          
